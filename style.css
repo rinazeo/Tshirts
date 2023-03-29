@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------- Body finished ------------------- */
+
+.hero{
+    padding: 0px 100px;
+    color: white;
+    background-color: #1F2937;
+
+}
+
+.header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > h3{
+    margin: 0;
+}
+
+.links > a{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+/* ------------- header finished ------------------- */
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text > h2{
+    padding: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+
+.title-text > p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-text > button{
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px 0px 30px 0px;
+    color: #e5e7eb;
+}
+
+
+/* ------------- title text finished ------------------- */
+
+
+.title-image > img{
+    padding: 100px;
+    flex: 1;
+    max-height: 200px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+
+/* ------------- title finished ------------------- */
+
+.information{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information > h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.info-pack-container{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-pack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.info-pack > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.info-pack > span{
+    font-size: small;
+}
+
+
+
+/* ------------- information finished ------------------- */
+
+
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 0 100px;
+}
+
+.quote > p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+
+.quote > h3{
+    align-self: center;
+}
+
+
+
+/* ------------- quote finished ------------------- */
+
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 20px;
+    color: #E5E7EB;
+
+}
+
+.action-content > button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    box-shadow: none;
+    border-color: #e5e7eb;
+    padding: 10px;
+    margin: 0;
+    color: #e5e7eb;
+}
+
+
+
+
+
+/* ------------- call for action finished ------------------- */
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+
+/* ------------- footer finished ------------------- */
